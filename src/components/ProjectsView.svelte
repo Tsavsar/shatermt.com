@@ -18,7 +18,7 @@
     <div class="flex flex-col gap-16px">
       <div class="flex flex-col gap-12px">
         <div class="">
-          <img src="/Website Assets/Images/Sonic.png" alt="" />
+          <img src="/Images/Sonic.png" alt="" />
         </div>
         <div class="flex justify-between items-end">
           <div class="flex flex-col">
@@ -52,7 +52,7 @@
 
       <div class="flex flex-col gap-12px">
         <div class="">
-          <img src="/Website Assets/Images/Zero.png" alt="" />
+          <img src="/Images/Zero.png" alt="" />
         </div>
         <div class="flex justify-between items-end">
           <div class="flex flex-col">
@@ -87,7 +87,7 @@
 
       <div class="flex flex-col gap-12px">
         <div class="">
-          <img src="public/Website Assets/Images/BrewTime.png" alt="" />
+          <img src="/Images/BrewTime.png" alt="" />
         </div>
         <div class="flex justify-between items-end">
           <div class="flex flex-col">
@@ -123,7 +123,7 @@
 
       <div class="flex flex-col gap-12px">
         <div class="">
-          <img src="public/Website Assets/Images/Nimbus.png" alt="" />
+          <img src="/Images/Nimbus.png" alt="" />
         </div>
         <div class="flex justify-between items-end">
           <div class="flex flex-col">
