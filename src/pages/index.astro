@@ -1,0 +1,72 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProjectsView from "../components/ProjectsView.svelte";
+import "../app.css";
+---
+
+<Layout>
+  <!-- HERO SECTION -->
+  <section class="px-3.56rem">
+    <div class="max-w-2xl mx-a">
+      <p class="font-mena-grotesk text-#0A231D fw-400 text-15px">
+        Product Designer | Writer | Design Speaker
+      </p>
+      <h1 class="text-#1E1A19 font-mena-grotesk text-36px leading-10 fw-600">
+        Mchiaga Tsavsar
+        <div class="flex items-end gap-3 relative">
+          Shater
+          <div class="text-base flex items-center gap-1 relative bottom-5px">
+            <a href="https://www.behance.net/tsavsar">
+              <div class="fill-#1E1A19 i-fa6-brands-behance text-xl"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/tsavsar">
+              <div class="fill-#1E1A19 i-mdi-linkedin"></div>
+            </a>
+            <a href="https://twitter.com/Tsavsar_">
+              <div class="fill-#1E1A19 i-ri-twitter-x-line"></div>
+            </a>
+          </div>
+        </div>
+      </h1>
+      <a
+        class="font-mena-grotesk text-#0A231D text-16px fw-400"
+        href="mailto:shatermt@gmail.com"
+      >
+        shatermt@gmail.com
+      </a>
+      <p class="text-#1E1A19 text-16px pt-3.1rem fw-400">
+        As a Product Designer, I specialise in creating enjoyable and effective
+        digital experiences. My focus is on user satisfaction, engagement, and
+        creating visually appealing designs. I've successfully applied these
+        principles across diverse projects and industries.
+      </p>
+      <div class="items-center flex gap-2 text-14px text-#0A231D">
+        Tap the avatar <div class="h-15px w-15px rounded-full">
+          <img src="public/Website Assets/Images/Icon.png" alt="" />
+        </div>
+         to learn more about me
+      </div>
+
+      <div class="pt-15 flex flex-col items-center content-center">
+        <div class="text-#0A231D text-16px fw-700">Shater Tsavsar</div>
+        <div class="text-#535353 text-14px fw-400">Download Resume</div>
+        <a href="public/Website Assets/download/Resume.pdf" download>
+          <div
+            class="fill-#1E1A19 h-30px w-30px i-material-symbols-light-download"
+          >
+          </div>
+        </a>
+      </div>
+
+      <!-- <div class="flex gap-1.4 content-center pt-56px" >
+			<div class="text-#1E1A19 font-mena-grotesk fw-300 text-16px" >
+				Projects
+			</div>
+				<div class="fill-#0E0E0E relative bottom--1px i-bi-chevron-expand">
+				</div>
+		</div> -->
+
+      <ProjectsView client:load />
+    </div>
+  </section>
+</Layout>

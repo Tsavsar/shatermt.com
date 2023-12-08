@@ -1,0 +1,75 @@
+@font-face {
+	font-family: Satoshi;
+	src: url("/fonts/Satoshi/Satoshi-Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("/fonts/Satoshi/Satoshi-Regular.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("/fonts/Satoshi/Satoshi-Medium.otf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("/fonts/Satoshi/Satoshi-Bold.otf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url("/fonts/Satoshi/Satoshi-Black.otf");
+	font-weight: 900;
+}
+
+/* MENA GROPTESK */
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-Regular.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-Medium.otf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-SemiBold.otf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-Bold.otf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: MenaGrotesk;
+	src: url("/fonts/MenaGrotesk/Mena-Grotesk-Black.otf");
+	font-weight: 900;
+}
+
+.font-playfair {
+	font-family: Playfair;
+}
+
+@font-face {
+	font-family: PlayFair;
+	src: url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital@1&display=swap");
+}
