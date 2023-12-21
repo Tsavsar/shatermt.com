@@ -45,7 +45,7 @@
   />
 </button>
 <div class="items-center flex gap-2 text-14px text-#0A231D pb-10px">
-  Click driop down to view my passed experiences
+  Click the drop down to view my passed experiences
 </div>
 
 {#if $open}
