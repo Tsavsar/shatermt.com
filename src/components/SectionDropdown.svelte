@@ -37,9 +37,11 @@
   aria-label="Select category"
   use:melt={$trigger}
 >
-  <div class="max-w-26ch text-(sm start) sm-text-base">{selectedLabel}</div>
+  <div class="max-w-26ch text-#000000 text-(sm start) sm-text-base">
+    {selectedLabel}
+  </div>
   <div
-    class="text-xs pt-3 relative bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
+    class="text-xs pt-3 relative text-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
   />
 </button>
 
