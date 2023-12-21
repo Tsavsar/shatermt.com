@@ -37,7 +37,7 @@
   aria-label="Select category"
   use:melt={$trigger}
 >
-  <div class="max-w-26ch text-#000000 text-(sm start) sm-text-base">
+  <div class="max-w-26ch text-#000000 text-16px sm-text-base">
     {selectedLabel}
   </div>
   <div
@@ -53,13 +53,13 @@
     style="border-radius: 6px;
         background: #F7F3F0;
         box-shadow: 3px 4px 9.7px 0px rgba(205, 205, 205, 0.30);"
-    class="z-40 min-w-180px bg-#F7F3F0 shadow-xl gap-10px br-lg p-16px"
+    class="z-40 cursor-pointer min-w-180px bg-#F7F3F0 shadow-xl gap-10px br-lg p-16px"
   >
     {#each opts as { label, value }, i}
       <!-- FOR INDIVIDUAL ITEM -->
       <li
         style=""
-        class=" font-mena-grotesk text-#9B9B9B fw-300 text-14px px-12px py-6px"
+        class="cursor-pointer font-mena-grotesk text-#9B9B9B fw-300 text-14px px-12px py-6px"
         use:melt={$item}
         on:m-click={() => dispatch("select", { value })}
       >
