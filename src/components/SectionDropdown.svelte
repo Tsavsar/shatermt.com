@@ -37,13 +37,16 @@
   aria-label="Select category"
   use:melt={$trigger}
 >
-  <div class="max-w-26ch text-#000000 text-16px sm-text-base">
+  <div class="max-w-26ch text-#000000 text-16px">
     {selectedLabel}
   </div>
   <div
-    class="text-xs pt-3 relative text-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
+    class="text-xs pt-3 relative bg-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
   />
 </button>
+<div class="items-center flex gap-2 text-14px text-#0A231D pb-10px">
+  Click driop down to view my passed experiences
+</div>
 
 {#if $open}
   <!-- FOR WHOLE DROP DOWN -->
@@ -59,7 +62,7 @@
       <!-- FOR INDIVIDUAL ITEM -->
       <li
         style=""
-        class="cursor-pointer font-mena-grotesk text-#9B9B9B fw-300 text-14px px-12px py-6px"
+        class="cursor-pointer font-mena-grotesk text-#1E1A19 fw-300 text-14px px-12px py-6px"
         use:melt={$item}
         on:m-click={() => dispatch("select", { value })}
       >
