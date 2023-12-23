@@ -46,13 +46,13 @@
       {selectedLabel}
     </div>
     <div
-      class="text-xs pt-3 relative h-5 w-5 bg-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
+      class="text-xs pt-3 relative h-4 w-4 bg-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
     />
   </button>
 </div>
-<div class="items-center flex gap-2 text-14px text-#0A231D pb-10px">
+<!-- <div class="items-center flex gap-2 text-14px text-#0A231D pb-10px">
   Click the drop down to view my passed experiences
-</div>
+</div> -->
 
 {#if $open}
   <!-- FOR WHOLE DROP DOWN -->
