@@ -32,18 +32,24 @@
 </script>
 
 <!-- TRIGGER -->
-<button
-  class="py-2 pt-56px text-neutral-6 rd-md flex items-center gap-2 outline-gray"
-  aria-label="Select category"
-  use:melt={$trigger}
->
-  <div class="max-w-26ch text-#000000 text-16px">
-    {selectedLabel}
-  </div>
-  <div
-    class="text-xs pt-3 relative bg-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
-  />
-</button>
+<div class="flex items-center flex-row gap-0px">
+  <button
+    class="py-2 mt-56px text-#F7F3F0 text-neutral-6 rd-md flex items-center gap-2 outline-gray"
+    aria-label="Select category"
+    use:melt={$trigger}
+  >
+    <div class="ring-container">
+      <div class="ringring"></div>
+      <div class="circle"></div>
+    </div>
+    <div class="max-w-26ch text-#000000 text-16px">
+      {selectedLabel}
+    </div>
+    <div
+      class="text-xs pt-3 relative h-5 w-5 bg-#000000 bottom--1px i-bi-chevron-expand i-iconoir-arrow-separate-vertical"
+    />
+  </button>
+</div>
 <div class="items-center flex gap-2 text-14px text-#0A231D pb-10px">
   Click the drop down to view my passed experiences
 </div>
