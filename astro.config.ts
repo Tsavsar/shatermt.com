@@ -1,15 +1,15 @@
 import { defineConfig } from "astro/config";
 import UnoCSS from "unocss/astro";
 import svelte from "@astrojs/svelte";
-import vercel from '@astrojs/vercel/serverless';
+import vercel from '@astrojs/vercel/static';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS({ injectReset: true }), svelte()],
   // output: 'server',
-  // adapter: vercel({
-  //   webAnalytics: {
-  //     enabled: true,
-  //   },
-  // })
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  })
 });
