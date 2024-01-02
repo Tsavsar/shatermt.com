@@ -31,16 +31,11 @@
           </div>
 
           <div class="flex flex-col text-right">
-            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
+            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2024</p>
             <div class="flex gap-10px items-center content-center">
-              <div
-                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
-              ></div>
-              <a href="https://www.behance.net/gallery/185834829/Sonic">
-                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
-                  Project Link
-                </p>
-              </a>
+              <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                View Project
+              </p>
             </div>
           </div>
         </div>
@@ -50,142 +45,163 @@
         <hr />
       </div>
 
-      <div class="flex flex-col gap-12px">
-        <div class="">
-          <img src="/Images/Sonic.png" alt="" />
-        </div>
-        <div class="flex justify-between items-end">
-          <div class="flex flex-col">
-            <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-              Sonic
-            </h1>
-            <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
-              Product Design Project
-            </h2>
+      <a href="https://www.behance.net/gallery/185834829/Sonic">
+        <div class="flex flex-col gap-12px">
+          <div class="">
+            <img src="/Images/Sonic.png" alt="" />
           </div>
+          <div class="flex justify-between items-end">
+            <div class="flex flex-col">
+              <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
+                Sonic
+              </h1>
+              <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
+                Product Design Project
+              </h2>
+            </div>
 
-          <div class="flex flex-col text-right">
-            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
-            <div class="flex gap-10px items-center content-center">
-              <div
-                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
-              ></div>
-              <a href="https://www.behance.net/gallery/185834829/Sonic">
-                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
-                  Project Link
-                </p>
-              </a>
+            <div class="flex flex-col text-right">
+              <p class="font-mena-grotesk text-#626262 text-12px fw-300">
+                2023
+              </p>
+              <div class="flex gap-10px items-center content-center">
+                <div
+                  class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
+                ></div>
+                <a href="https://www.behance.net/gallery/185834829/Sonic">
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                    View Project
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
 
       <div class="bg-#ddd">
         <hr />
       </div>
 
-      <div class="flex flex-col gap-12px">
-        <div class="">
-          <img src="/Images/Zero.png" alt="" />
-        </div>
-        <div class="flex justify-between items-end">
-          <div class="flex flex-col">
-            <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-              Zero.
-            </h1>
-            <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
-              Product Design Project
-            </h2>
+      <a href="https://www.behance.net/gallery/168381553/ZERO-Gaming-App">
+        <div class="flex flex-col gap-12px">
+          <div class="">
+            <img src="/Images/Zero.png" alt="" />
           </div>
+          <div class="flex justify-between items-end">
+            <div class="flex flex-col">
+              <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
+                Zero.
+              </h1>
+              <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
+                Product Design Project
+              </h2>
+            </div>
 
-          <div class="flex flex-col text-right">
-            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
-            <div class="flex gap-10px items-center content-center">
-              <div
-                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
-              ></div>
-              <a
-                href="https://www.behance.net/gallery/168381553/ZERO-Gaming-App"
-              >
-                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
-                  Project Link
-                </p>
-              </a>
+            <div class="flex flex-col text-right">
+              <p class="font-mena-grotesk text-#626262 text-12px fw-300">
+                2023
+              </p>
+              <div class="flex gap-10px items-center content-center">
+                <div
+                  class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
+                ></div>
+                <a
+                  href="https://www.behance.net/gallery/168381553/ZERO-Gaming-App"
+                >
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                    View Project
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="bg-#ddd">
-        <hr />
-      </div>
-
-      <div class="flex flex-col gap-12px">
-        <div class="">
-          <img src="/Images/BrewTime.png" alt="" />
-        </div>
-        <div class="flex justify-between items-end">
-          <div class="flex flex-col">
-            <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-              Brew Time
-            </h1>
-            <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
-              Product Design Project
-            </h2>
-          </div>
-
-          <div class="flex flex-col text-right">
-            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
-            <div class="flex gap-10px items-center content-center">
-              <div
-                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
-              ></div>
-              <a
-                href="https://www.behance.net/gallery/170538241/Brew-Time-Coffee-Shop-Case-study"
-              >
-                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
-                  Project Link
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </a>
 
       <div class="bg-#ddd">
         <hr />
       </div>
 
-      <div class="flex flex-col gap-12px">
-        <div class="">
-          <img src="/Images/Nimbus.png" alt="" />
-        </div>
-        <div class="flex justify-between items-end">
-          <div class="flex flex-col">
-            <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-              Nimbus Air
-            </h1>
-            <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
-              Product Design Project
-            </h2>
+      <a
+        href="https://www.behance.net/gallery/170538241/Brew-Time-Coffee-Shop-Case-study"
+      >
+        <div class="flex flex-col gap-12px">
+          <div class="">
+            <img src="/Images/BrewTime.png" alt="" />
           </div>
+          <div class="flex justify-between items-end">
+            <div class="flex flex-col">
+              <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
+                Brew Time
+              </h1>
+              <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
+                Product Design Project
+              </h2>
+            </div>
 
-          <div class="flex flex-col text-right">
-            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
-            <div class="flex gap-10px items-center content-center">
-              <div
-                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
-              ></div>
-              <a
-                href="https://www.behance.net/gallery/181206771/Airline-Booking-System-Dashboard"
-              >
-                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
-                  Project Link
-                </p>
-              </a>
+            <div class="flex flex-col text-right">
+              <p class="font-mena-grotesk text-#626262 text-12px fw-300">
+                2023
+              </p>
+              <div class="flex gap-10px items-center content-center">
+                <div
+                  class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
+                ></div>
+                <a
+                  href="https://www.behance.net/gallery/170538241/Brew-Time-Coffee-Shop-Case-study"
+                >
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                    View Project
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+      </a>
+
+      <div class="bg-#ddd">
+        <hr />
       </div>
+
+      <a
+        href="https://www.behance.net/gallery/181206771/Airline-Booking-System-Dashboard"
+      >
+        <div class="flex flex-col gap-12px">
+          <div class="">
+            <img src="/Images/Nimbus.png" alt="" />
+          </div>
+          <div class="flex justify-between items-end">
+            <div class="flex flex-col">
+              <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
+                Nimbus Air
+              </h1>
+              <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
+                Product Design Project
+              </h2>
+            </div>
+
+            <div class="flex flex-col text-right">
+              <p class="font-mena-grotesk text-#626262 text-12px fw-300">
+                2023
+              </p>
+              <div class="flex gap-10px items-center content-center">
+                <div
+                  class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
+                ></div>
+                <a
+                  href="https://www.behance.net/gallery/181206771/Airline-Booking-System-Dashboard"
+                >
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                    View Project
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 {:else if selectedView === "experience"}
