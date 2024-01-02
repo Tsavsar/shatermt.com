@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://shatermt.com",
   integrations: [UnoCSS({ injectReset: true }), svelte(), mdx(), sitemap()],
   adapter: vercel({
     webAnalytics: {
