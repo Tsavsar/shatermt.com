@@ -16,6 +16,40 @@
 {#if selectedView === "projects"}
   <div class="pt-26px" in:fly={{ y: -50 }}>
     <div class="flex flex-col gap-16px">
+      <a href="/projects/my-website" class="flex flex-col gap-12px">
+        <div class="">
+          <img src="/Images/shatermt.jpg" alt="" />
+        </div>
+        <div class="flex justify-between items-end">
+          <div class="flex flex-col">
+            <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
+              Shatermt.com
+            </h1>
+            <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
+              Personal Website Project
+            </h2>
+          </div>
+
+          <div class="flex flex-col text-right">
+            <p class="font-mena-grotesk text-#626262 text-12px fw-300">2023</p>
+            <div class="flex gap-10px items-center content-center">
+              <div
+                class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
+              ></div>
+              <a href="https://www.behance.net/gallery/185834829/Sonic">
+                <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                  Project Link
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <div class="bg-#ddd">
+        <hr />
+      </div>
+
       <div class="flex flex-col gap-12px">
         <div class="">
           <img src="/Images/Sonic.png" alt="" />

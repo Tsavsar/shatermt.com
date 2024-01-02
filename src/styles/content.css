@@ -1,0 +1,11 @@
+h1 {
+  @apply text-26px fw-bold lh-137.5% mt-33px;
+}
+
+h2 {
+  @apply text-base fw-bold lh-0 mt-30px;
+}
+
+.content img:not(.override) {
+  @apply mt-30px;
+}

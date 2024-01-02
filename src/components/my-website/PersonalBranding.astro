@@ -1,0 +1,13 @@
+---
+const imgs = ["/pb/1.png", "/pb/2.png", "/pb/3.png", "/pb/4.png"];
+---
+
+<div class="mt-30px mb-80px grid grid-cols-2 sm-grid-cols-4">
+  {
+    imgs.map((src, i) => (
+      <div>
+        <img class="override" src={src} alt="" />
+      </div>
+    ))
+  }
+</div>

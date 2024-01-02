@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "./Layout.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import "../styles/content.css";
+
+type Props = CollectionEntry<"blog">["data"];
+
+const { title, description, pubDate, readTime, heroImage } = Astro.props;
+---
+
+<Layout>
+  <section class="px-3.56rem">
+    <div class="max-w-2xl mx-a flex flex-col gap-2.5">
+      <div class="flex flex-col gap-4 mb-10">
+        <h1 class="text-4xl font-bold">{title}</h1>
+
+        <div class="flex items-center gap-2">
+          <img src="/Images/avatar-checkmark.png" alt="avatar" class="w-30px" />
+          <p class="text-sm font-medium">Shater Tsavsar</p>
+          <p class="text-sm text-gray-500">
+            <FormattedDate date={pubDate} /> • {readTime} min read
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <img src={heroImage} alt="hero image" class="w-full" />
+      </div>
+
+      <div class="content contents">
+        <slot />
+      </div>
+    </div>
+  </section>
+</Layout>

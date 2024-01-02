@@ -4,7 +4,7 @@
     { label: "Experience", value: "experience" },
     { label: "Education", value: "education" },
     { label: "Speaking & Writing", value: "speaking-and-writing" },
-    { label: "Recommendation", value: "recomendation" },
+    { label: "Recommendation", value: "recomendation" }
   ] as const;
 
   export type View = (typeof opts)[number]["value"];
@@ -16,7 +16,7 @@
   import { createEventDispatcher } from "svelte";
 
   export let selected = "";
-  $: selectedLabel = opts.find((o) => o.value === selected)?.label;
+  $: selectedLabel = opts.find(o => o.value === selected)?.label;
 
   const dispatch = createEventDispatcher<{
     select: { value: View };
@@ -24,10 +24,10 @@
 
   const {
     elements: { trigger, menu, item },
-    states: { open },
+    states: { open }
   } = createDropdownMenu({
     positioning: { placement: "bottom-start" },
-    preventScroll: false,
+    preventScroll: false
   });
 </script>
 
