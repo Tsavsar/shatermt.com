@@ -53,7 +53,7 @@
           <div class="flex justify-between items-end">
             <div class="flex flex-col">
               <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-                Sonic
+                Sonic Music App
               </h1>
               <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
                 Product Design Project
@@ -69,7 +69,7 @@
                   class="fill-#1E1A19 i-fa6-brands-behance relative bottom-2px h-18px w-18px"
                 ></div>
                 <a href="https://www.behance.net/gallery/185834829/Sonic">
-                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-400">
                     View Project
                   </p>
                 </a>
@@ -91,7 +91,7 @@
           <div class="flex justify-between items-end">
             <div class="flex flex-col">
               <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-                Zero.
+                Zero. Gaming App
               </h1>
               <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
                 Product Design Project
@@ -109,7 +109,7 @@
                 <a
                   href="https://www.behance.net/gallery/168381553/ZERO-Gaming-App"
                 >
-                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-400">
                     View Project
                   </p>
                 </a>
@@ -133,7 +133,7 @@
           <div class="flex justify-between items-end">
             <div class="flex flex-col">
               <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-                Brew Time
+                Brew Time Website
               </h1>
               <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
                 Product Design Project
@@ -151,7 +151,7 @@
                 <a
                   href="https://www.behance.net/gallery/170538241/Brew-Time-Coffee-Shop-Case-study"
                 >
-                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-400">
                     View Project
                   </p>
                 </a>
@@ -175,7 +175,7 @@
           <div class="flex justify-between items-end">
             <div class="flex flex-col">
               <h1 class="font-mena-grotesk text-#0A231D text-16px fw-600">
-                Nimbus Air
+                Nimbus Air Dashboard
               </h1>
               <h2 class="font-mena-grotesk text-#0e0e0e text-14px fw-300">
                 Product Design Project
@@ -193,7 +193,7 @@
                 <a
                   href="https://www.behance.net/gallery/181206771/Airline-Booking-System-Dashboard"
                 >
-                  <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+                  <p class="font-mena-grotesk text-#515151 text-14px fw-400">
                     View Project
                   </p>
                 </a>
