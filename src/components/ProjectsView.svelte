@@ -33,7 +33,7 @@
           <div class="flex flex-col text-right">
             <p class="font-mena-grotesk text-#626262 text-12px fw-300">2024</p>
             <div class="flex gap-10px items-center content-center">
-              <p class="font-mena-grotesk text-#515151 text-14px fw-600">
+              <p class="font-mena-grotesk text-#515151 text-14px fw-400">
                 View Project
               </p>
             </div>
